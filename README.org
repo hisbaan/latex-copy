@@ -5,9 +5,7 @@ This is a set of scripts that I use to copy LaTeX code from a proper editor (wit
 <<<<<<< HEAD
 #+MACRO: imglnk @@html:<a href="$1"><img src="$2"></a>@@
 {{{imglnk(https://asciinema.org/a/380899.svg,https://asciinema.org/a/380899)}}}
-=======
-[[https://asciinema.org/a/380899.svg][https://asciinema.org/a/380899]]
->>>>>>> c3c0785 (Updated README.org)
+# [https://asciinema.org/a/380899.svg][https://asciinema.org/a/380899]
 ** latex-to-text
 /In Progress/
 * Desclaimer
