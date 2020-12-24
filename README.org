@@ -1,6 +1,6 @@
 * Description
 This is a set of scripts that I use to copy LaTeX code from a proper editor (with my snippets) to my clipboard. Either as LaTeX code or as plain text with math symbols.
-* Example
+* Examples
 ** [[https://asciinema.org/a/380899][latex-copy]]
 ** latex-to-text
 /In Progress/
