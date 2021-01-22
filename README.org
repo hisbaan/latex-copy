@@ -4,5 +4,8 @@ This is a set of scripts that I use to copy LaTeX code from a proper editor (wit
 ** [[https://asciinema.org/a/380899][latex-copy]]
 ** latex-to-text
 /In Progress/
+** latex-img
 * Desclaimer
 These scripts are not intended to have compatibility with other people's machines. They are only guaranteed to work with my exact setup and I have not written them to be explicitly used by others. If you would like to take these scripts and modify to suit your workflow then please, feel free.
+* TODO [0/1]
+- [ ] Make a script that takes latex, includes that in a full document (with only the equation, look at cs diagrams), renders them as a pdf then converts that pdf to png.
