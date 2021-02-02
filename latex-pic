@@ -2,6 +2,23 @@
 
 # deps: bspwm, texlive, emacs, pdflatex, catdvi
 
+case "$1" in
+    discord)
+        foreground=DCDDDE
+        background=36393F
+        ;;
+    light)
+        foreground=000000
+        background=FFFFFF
+        ;;
+    *|dark)
+        foreground=1E2127
+        backgroud=DFDFDF
+        ;;
+esac
+
+echo $background
+
 cd /tmp
 rm /tmp/latex-pic*
 
@@ -15,8 +32,8 @@ emacsclient -c -a 'emacs' /tmp/latex-copy.tex
 
 echo "\documentclass[border=0.2cm]{standalone}
 \usepackage{amsmath, amsthm, amssymb, graphicx, multicol, array, xcolor, pagecolor}
-\definecolor{background}{HTML}{DFDFDF}
-\definecolor{foreground}{HTML}{ABB2BF}
+\definecolor{background}{HTML}{${background}}
+\definecolor{foreground}{HTML}{${foreground}}
 \pagecolor{background}
 \newcommand{\st}{\text{ s.t. }}
 \newcommand{\R}{\mathbb{R}}
